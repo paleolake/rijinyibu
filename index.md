@@ -1,9 +1,11 @@
 ---
 layout: default
+title: 日进一步
+description: 不积跬步，无以至千里；不积小流，无以成江海。
 ---
 
 ## 2019
-
+[读书笔记《高性能MySql》之第四章 Schema与数据类型优化](./docs/high-performance-mysql-chapter4.html)
 
 [我学软件工程](./docs/i-study-software-engineering.html)
 
