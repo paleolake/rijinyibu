@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 由任正非先生的采访我想到了什么？
 ---
 
