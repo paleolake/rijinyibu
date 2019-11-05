@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 我学软件工程
 ---
 
