@@ -120,7 +120,7 @@ mysql> ALTER TABLE innodb_ tbl ENGINE= INNODB;
 > 可以通过执行OPTIMIZE TABLE或者导出再导入的方式来重新整理数据。这对多数存储引擎都是有效的。对于一些存储引擎如MyISAM，可以通过排序算法重建索引的方式来消除碎片。老版本的InnoDB没有什么消除碎片化的方法。不过最新版本InnoDB新增了“在线”添加和删除索引的功能，可以通过先删除，然后再重新创建索引的方式来消除索引的碎片化。
 >
 > 对于那些不支持OPTIMIZE TABLE的存储引擎，可以通过一个不做任何操作（no-op）的ALTER TABLE操作来重建表。只需要将表的存储引擎修改为当前的引擎即可：
-```sql
+```shell
 mysql>ALTER TABLE <table> ENGINE = <engine>;
 ```
 
