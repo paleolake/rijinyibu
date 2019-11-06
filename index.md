@@ -4,7 +4,8 @@ layout: default
 
 # 2019
 [读书笔记《高性能MySql》](./docs/note-high-performance-mysql.html)
-[第四章](./docs/note-high-performance-mysql-chapter4.html)
+[第四章](./docs/note-high-performance-mysql-chapter4.html),
+[第五章](./docs/note-high-performance-mysql-chapter4.html)
 
 [我学软件工程](./docs/i-study-software-engineering.html)
 
