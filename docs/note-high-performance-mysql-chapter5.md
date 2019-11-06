@@ -59,7 +59,7 @@ AND url=" http:// www. mysql. com";
 
 ### 5.3.11　索引和锁
 > 换句话说，底层存储引擎的操作是“从索引的开头开始获取满足条件actor_id<5的记录”，服务器并没有告诉InnoDB可以过滤第1行的WHERE条件。注意到EXPLAIN的Extra列出现了“Using where”，这表示MySQL服务器将存储引擎返回行以后再应用WHERE过滤条件。
-```sql
+```shell
 > mysql> EXPLAIN SELECT actor_id FROM sakila.actor
 > -> WHERE actor_id < 5 AND actor_id <> 1 FOR UPDATE;
 +----+-------------+-------+-------+---------+--------------------------+
@@ -85,7 +85,7 @@ AND url=" http:// www. mysql. com";
 > 无论如何创建索引，这种查询都是个严重的问题。因为随着偏移量的增加，MySQL需要花费大量的时间来扫描需要丢弃的数据。反范式化、预先计算和缓存可能是解决这类查询的仅有策略。一个更好的办法是限制用户能够翻页的数量，实际上这对用户体验的影响不大，因为用户很少会真正在乎搜索结果的第10000页。
 >
 > 优化这类索引的另一个比较好的策略是使用延迟关联，通过使用覆盖索引查询返回需要的主键，再根据这些主键关联原表获得需要的行。这可以减少MySQL扫描那些需要丢弃的行数。下面这个查询显示了如何高效地使用（sex，rating）索引进行排序和分页：
-```sql
+```shell
 mysql> SELECT < cols> FROM profiles INNER JOIN (
 -> SELECT < primary key cols> FROM profiles
 -> WHERE x. sex=' M' ORDER BY rating LIMIT 100000, 10
