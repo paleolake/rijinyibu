@@ -3,6 +3,8 @@ layout: default
 ---
 
 # 2019
+[MySQL复制的注意事项](./posts/note-for-mysql-replication.html)
+
 [读书笔记《高性能MySql》](./posts/note-high-performance-mysql.html)
 [第四章](./posts/note-high-performance-mysql-chapter4.html),
 [第五章](./posts/note-high-performance-mysql-chapter5.html)
