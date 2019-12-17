@@ -3,8 +3,10 @@ layout: default
 ---
 
 # 2019
+## 12
 [读书笔记《Java8实战》](./posts/note-java8-in-action.html)
 
+## 11 
 [MySQL复制的注意事项](./posts/note-for-mysql-replication.html)
 
 [读书笔记《高性能MySql》](./posts/note-high-performance-mysql.html)
