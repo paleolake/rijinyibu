@@ -2,9 +2,9 @@
 layout: default
 ---
 
-# 2019
+# 日志
 
-## Dec.
+2019年12月17日
 [读书笔记《Java8实战》](./posts/note-java8-in-action.html)
 
 ## Nov.
