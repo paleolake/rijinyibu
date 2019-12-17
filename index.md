@@ -2,14 +2,12 @@
 layout: default
 ---
 
-# 日志
-
 ## 2019
 
 ### Dec.
 [读书笔记《Java8实战》](./posts/note-java8-in-action.html)
 
-## Nov.
+### Nov.
 [MySQL复制的注意事项](./posts/note-for-mysql-replication.html)
 
 [读书笔记《高性能MySql》](./posts/note-high-performance-mysql.html)
