@@ -3,16 +3,15 @@ layout: default
 ---
 
 # 2019
-## 12
+## December
 [读书笔记《Java8实战》](./posts/note-java8-in-action.html)
 
-## 11 
+## November
 [MySQL复制的注意事项](./posts/note-for-mysql-replication.html)
 
 [读书笔记《高性能MySql》](./posts/note-high-performance-mysql.html)
-[第四章](./posts/note-high-performance-mysql-chapter4.html),
-[第五章](./posts/note-high-performance-mysql-chapter5.html)
 
+## October
 [我学软件工程](./posts/i-study-software-engineering.html)
 
 [Redis有意思的一些特征](./posts/some-interesting-features-of-redis.html)
