@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<img src="/images/note-java8-in-action.jpg" width="256">
+
 # 读书笔记《Java8实战》
 
 [第一部分，基础知识（第1章到第3章）](./note-java8-in-action-part1.html)

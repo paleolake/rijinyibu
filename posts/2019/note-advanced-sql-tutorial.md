@@ -2,8 +2,9 @@
 layout: default
 ---
 
-# 读书笔记《SQL进阶教程》
 <img src="/images/note-advanced-sql-tutorial.jpg" width="256">
+
+# 读书笔记《SQL进阶教程》
 
 ### 第一章，神奇的SQL
 [1-1 CASE表达式](./note-advanced-sql-tutorial-chapter1-1.html)

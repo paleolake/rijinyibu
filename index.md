@@ -5,7 +5,7 @@ layout: default
 ## 日志
 
 ### Dec, 2019
-[读书笔记《Java8实战》](./posts/note-java8-in-action.html)
+[读书笔记《Java8实战》](./posts/2019/note-java8-in-action.html)
 
 [读书笔记《SQL进阶教程》](./posts/2019/note-advanced-sql-tutorial.html)
 
