@@ -9,9 +9,9 @@ layout: default
 ### 第一章，神奇的SQL
 [1-1 CASE表达式](./note-advanced-sql-tutorial-chapter1-1.html)
 
-1-2　自连接的用法
+[1-2 自连接的用法](./note-advanced-sql-tutorial-chapter1-2.html)
 
-1-3　三值逻辑和NULL
+[1-3 三值逻辑和NULL](./note-advanced-sql-tutorial-chapter1-3.html)
 
 1-4　HAVING子句的力量
 
