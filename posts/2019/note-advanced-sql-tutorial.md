@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<img src="/images/note-advanced-sql-tutorial.jpg" width="256">
-
 # 读书笔记《SQL进阶教程》
 
 ### 第一章，神奇的SQL
@@ -33,3 +31,5 @@ layout: default
 
 ### 第2章，关系数据库的世界
 [本章笔记](./note-advanced-sql-tutorial-chapter2.html)
+
+<img src="/images/note-advanced-sql-tutorial.jpg" width="256">
