@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![advanced sql tutorial](/images/note-advanced-sql-tutorial.jpg | width=100)
+<img src="/images/note-advanced-sql-tutorial.jpg" width="156">
 # 读书笔记《SQL进阶教程》
 
 ### 第一章，神奇的SQL
