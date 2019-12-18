@@ -7,6 +7,8 @@ layout: default
 ### Dec, 2019
 [读书笔记《Java8实战》](./posts/note-java8-in-action.html)
 
+[读书笔记《SQL进阶教程》](./posts/2019/note-advanced-sql-tutorial.html)
+
 ### Nov, 2019
 [MySQL复制的注意事项](./posts/note-for-mysql-replication.html)
 
