@@ -9,7 +9,6 @@ layout: default
 
 ### Nov.
 [MySQL复制的注意事项](./posts/note-for-mysql-replication.html)
-
 [读书笔记《高性能MySql》](./posts/note-high-performance-mysql.html)
 
 ### Oct.
@@ -17,7 +16,6 @@ layout: default
 
 ### Sept.
 [Redis有意思的一些特征](./posts/some-interesting-features-of-redis.html)
-
 [再读《Java并发编程实践》](./posts/java-concurrency-in-practice.html)
 
 ### May.
