@@ -11,7 +11,7 @@ layout: default
 
 [1-3 三值逻辑和NULL](./note-advanced-sql-tutorial-chapter1-3.html)
 
-1-4　HAVING子句的力量
+[1-4 HAVING子句的力量](./note-advanced-sql-tutorial-chapter1-4.html)
 
 1-5　外连接的用法
 
