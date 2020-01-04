@@ -4,6 +4,9 @@ layout: default
 
 ## 日志
 
+### Jan, 2020
+[我的驾考经历](./posts/2020/my-driving-experience.html)
+
 ### Dec, 2019
 [读书笔记《Java8实战》](./posts/2019/note-java8-in-action.html)
 
