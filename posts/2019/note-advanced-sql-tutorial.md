@@ -13,7 +13,7 @@ layout: default
 
 [1-4 HAVING子句的力量](./note-advanced-sql-tutorial-chapter1-4.html)
 
-1-5　外连接的用法
+[1-5 外连接的用法](./note-advanced-sql-tutorial-chapter1-5.html)
 
 1-6　用关联子查询比较行与行
 
