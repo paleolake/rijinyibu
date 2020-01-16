@@ -15,7 +15,7 @@ layout: default
 
 [1-5 外连接的用法](./note-advanced-sql-tutorial-chapter1-5.html)
 
-1-6　用关联子查询比较行与行
+[1-6 用关联子查询比较行与行](./note-advanced-sql-tutorial-chapter1-6.html)
 
 1-7　用SQL进行集合运算
 
