@@ -4,6 +4,9 @@ layout: default
 
 ## 日志
 
+### Mar, 2020
+[读书笔记《Kafka权威指南》](./posts/2020/note-kafka-definitive-guide.html)
+
 ### Jan, 2020
 [我的驾考经历](./posts/2020/my-driving-experience.html)
 
