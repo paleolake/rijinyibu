@@ -14,3 +14,7 @@ title: 读书笔记《Kafka权威指南》
 [第6章，可靠的数据传递](./kafka-definitive-guide-chapter6.html?v=2020040101)
 
 [第7章，构建数据管道](./kafka-definitive-guide-chapter7.html?v=2020040101)
+
+[第9章，管理Kafka](./kafka-definitive-guide-chapter9.html?v=2020040101)
+
+[第11章，流式处理](./kafka-definitive-guide-chapter11.html?v=2020040101)
