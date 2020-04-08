@@ -191,7 +191,7 @@ commandProperties = {
 2.Manual mapping of routes using service discovery  
 3.Manual mapping of routes using static URLs  
 
-~ 是不是应该把实现细节也这里呢？
+~ 是不是应该把实现细节也记录在这里呢？
 
 >If you want to see the routes being managed by the Zuul server, you can access the routes via the /routes endpoint on the Zuul server. This will return a listing of all the mappings on your service. Figure 6.4 shows the output from hitting http://localhost:5555/routes.
 
