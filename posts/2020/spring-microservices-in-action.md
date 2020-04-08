@@ -147,10 +147,10 @@ public List<License> getLicensesByOrg(String organizationId){
 The last two Hystrix properties (metrics.rollingStats.timeInMilliseconds and metrics.rollingStats.numBuckets) are named a bit differently than the previous properties, but they still control the behavior of the circuit breaker. The first property, metrics.rollingStats.timeInMilliseconds, is used to control the size of the window that will be used by Hystrix to monitor for problems with a service call. The default value for this is 10,000 milliseconds (that is, 10 seconds).  
 The second property, metrics.rollingStats.numBuckets, controls the number of times statistics are collected in the window you’ve defined. Hystrix collects metrics in buckets during this window and checks the stats in those buckets to determine if the remote resource call is failing. The number of buckets defined must evenly divide into the overall number of milliseconds set for rollingStatus.inMilliseconds stats. For example, in your custom settings in the previous listing, Hystrix will use a 15-second window and collect statistics data into five buckets of three seconds in length.  
 
-~ circuitBreaker.requestVolumeThreshold，最小请求数，比如10秒须有10请求数，如果没有达到所设定的值，将不会触发熔断机制。
-~ circuitBreaker.errorThresholdPercentage，调用目标服务的失败率，比如70%，也就是说目标服务的访问失败率超过70%，将有可能触发熔断机制，是否触发熔断机制，还要看是否达到了最小请求数。
-~ circuitBreaker.sleepWindowInMilliseconds，休眠窗口的毫秒数，也就是说当熔断机制触发后，Hystrix将会休眠多少毫秒才会让请求通过去调用目标服务，用于检测目标服务是否已恢复。
-~ metrics.rollingStats.timeInMilliseconds，用于度量的时间窗口毫秒数，默认为10秒，也就说10秒内最小请求数，目标服务的调用失败率达到设定的阀值，将会触发熔断机制。
+~ circuitBreaker.requestVolumeThreshold，最小请求数，比如10秒须有10请求数，如果没有达到所设定的值，将不会触发熔断机制。  
+~ circuitBreaker.errorThresholdPercentage，调用目标服务的失败率，比如70%，也就是说目标服务的访问失败率超过70%，将有可能触发熔断机制，是否触发熔断机制，还要看是否达到了最小请求数。  
+~ circuitBreaker.sleepWindowInMilliseconds，休眠窗口的毫秒数，也就是说当熔断机制触发后，Hystrix将会休眠多少毫秒才会让请求通过去调用目标服务，用于检测目标服务是否已恢复。  
+~ metrics.rollingStats.timeInMilliseconds，用于度量的时间窗口毫秒数，默认为10秒，也就说10秒内最小请求数，目标服务的调用失败率达到设定的阀值，将会触发熔断机制。  
 ~ metrics.rollingStats.numBuckets，收集统计数据的桶数，比如时间窗口设置为10秒，此参数设置为5个，则表示10秒内所有的目标服务的请求的统计数据将会均匀存放在5个桶中，平均每个桶存放2秒的统计数据。
 
 
@@ -182,7 +182,7 @@ commandProperties = {
 2 Define a Java Callable class to inject the UserContext into the Hystrix Command  
 3 Configure Spring Cloud to use your custom Hystrix Concurrency Strategy  
 
-~ 这个还得继续看看书中后续的内容才行。
+~ 这个还得继续看看书中后续的内容才行。  
 ~ 现在看，好像也比较容易理解，就是采用线程隔离模式执行策略时，如何将调用线程的上下文传递给线程池中的执行线程，让其线程能够利用调用线程的上下文做一些事情。
 
 ### 6.3 Configuring routes in Zuul
@@ -224,7 +224,7 @@ The concept of a consumer group is this: You might have multiple services with e
 >
 ><img src="/images/smia-8-3-2.jpg" width="540">  
 
-~ 消费者群组，主要是为了防止同一个服务的多个实例消费同一个消息多次，有了服务群组的概念，那么就能够限制同一个群主中的多个服务实例只能消费队列中的任何消息一次。
+~ 消费者群组，主要是为了防止同一个服务的多个实例消费同一个消息多次，有了服务群组的概念，那么就能够限制同一个群主中的多个服务实例只能消费队列中的任何消息一次。  
 ~ 当群组中某个消费退出（不论故障还是主动退出）或有新的消费者加入群组时，都将会触发群组负责的分区的再均衡。
 
 #### 8.4.2 Defining custom channels
