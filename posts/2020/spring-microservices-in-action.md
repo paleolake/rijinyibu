@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 读书笔记《Spring Microservices IN ACTION》
+title: 读书笔记《Spring Microservices in Action》
 ---
 
-# 读书笔记《Spring Microservices IN ACTION》
+# 读书笔记《Spring Microservices in Action》
 
 ### 2.1 The architect’s story: designing the microservice architecture
 >An architect’s role on a software project is to provide a working model of the problem that needs to be solved. The job of the architect is to provide the scaffolding against which developers will build their code so that all the pieces of the application fit together.
