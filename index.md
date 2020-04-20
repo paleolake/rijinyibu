@@ -5,6 +5,9 @@ layout: default
 ## 日志
 
 ### Apr, 2020
+
+[我为什么那么急于求成呢？](./posts/2020/why-am-i-in-such-a-hurry.html)
+
 [读书笔记《Spring Microservices in Action》](./posts/2020/spring-microservices-in-action.html)
 
 ### Mar, 2020
