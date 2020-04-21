@@ -7,7 +7,7 @@ layout: default
 ### Apr, 2020
 [我对微服务的一些看法](./posts/2020/some-of-my-thoughts-on-microservices.html)
 
-[我为什么那么急于求成呢？](./posts/2020/why-am-i-in-such-a-hurry.html)
+[坚持做，慢慢做](./posts/2020/why-am-i-in-such-a-hurry.html)
 
 [读书笔记《Spring Microservices in Action》](./posts/2020/spring-microservices-in-action.html)
 
