@@ -5,6 +5,7 @@ layout: default
 ## 日志
 
 ### Apr, 2020
+[我对微服务的一些看法](./posts/2020/some-of-my-thoughts-on-microservices.html)
 
 [我为什么那么急于求成呢？](./posts/2020/why-am-i-in-such-a-hurry.html)
 
