@@ -3,6 +3,7 @@ layout: default
 title: 书摘《高性能MySQL》
 ---
 
+# 书摘《高性能MySQL》
 
 ### 第1章　MySQL架构与历史
 #### 1.3.1　隔离级别
