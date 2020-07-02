@@ -5,7 +5,7 @@ layout: default
 ## 日志
 
 ### Jul, 2020
-[书摘《高性能MySQL》](./posts/2020/high-performance-mysql..html)
+[书摘《高性能MySQL》](./posts/2020/high-performance-mysql.html)
 
 ### May, 2020
 [书摘《非暴力沟通》](./posts/2020/nonviolent-communication-a-language-of-life.html)
