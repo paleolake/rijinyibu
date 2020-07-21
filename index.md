@@ -5,10 +5,10 @@ layout: default
 ## 日志
 
 ### Jul, 2020
-[书摘《高性能MySQL》](./posts/2020/high-performance-mysql.html)
+[读书笔记《高性能MySQL》](./posts/2020/high-performance-mysql.html)
 
 ### May, 2020
-[书摘《非暴力沟通》](./posts/2020/nonviolent-communication-a-language-of-life.html)
+[读书笔记《非暴力沟通》](./posts/2020/nonviolent-communication-a-language-of-life.html)
 
 ### Apr, 2020
 [我对微服务的一些看法](./posts/2020/some-of-my-thoughts-on-microservices.html)
