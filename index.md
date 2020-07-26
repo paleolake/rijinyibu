@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## 日志
+## 最近日志
 
 ### Jul, 2020
 [读书笔记《高性能MySQL》](./posts/2020/high-performance-mysql.html)
