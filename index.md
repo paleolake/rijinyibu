@@ -6,6 +6,7 @@ layout: default
 
 ## Jul, 2020
 [连岳文摘](digests.html)
+
 [读书笔记《高性能MySQL》](./posts/2020/high-performance-mysql.html)
 
 ## May, 2020
