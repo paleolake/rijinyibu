@@ -13,7 +13,7 @@ layout: default
 
 [人生篇](./posts/digests/lianyue/life.html)
 
-[生活篇](./posts/digests/lianyue/dailianyue.html)
+[生活篇](./posts/digests/lianyue/daily.html)
 
 [教育篇](./posts/digests/lianyue/education.html)
 
