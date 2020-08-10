@@ -28,13 +28,13 @@ public class CasNumberRange {
 		final int upper;
 		...
 	}
-
+  //
 	private final AtomicReference<IntPair> values =
 		new AtomicReference<IntPair>(new IntPair(0, 0));
-
+    //
 		public int getLower() { return values.get().lower; }
 		public int getUpper() { return values.get().upper; }
-
+    //
 		public void setLower(int i) {
 			while (true) {
 				IntPair oldv = values.get();
@@ -57,14 +57,14 @@ public class CasNumberRange {
 >如果在算法中采用自己的方式来管理节点对象的内存，那么可能出现ABA问题。在这种情况下，即使链表的头节点仍然指向之前观察到的节点，那么也不足以说明链表的内容没有发生改变。如果通过垃圾回收器来管理链表节点仍然无法避免ABA问题，那么还有一个相对简单的解决方案：不是更新某个引用的值，而是更新两个值，包括一个引用和一个版本号。即使这个值由A变为B，然后又变为A，版本号也将是不同的。AtomicStampedReference（以及AtomicMarkableReference）支持在两个变量上执行原子的条件更新。AtomicStampedReference将更新一个“对象-引用”二元组，通过在引用上加上“版本号”，从而避免ABA问题。类似地，AtomicMarkableReference将更新一个“对象引用-布尔值”二元组，在某些算法中将通过这种二元组使节点保存在链表中同时又将其标记为“已删除的节点”。
 ```java
 AtomicStampedReference<Integer> account = new AtomicStampedReference<>(100, 0);
-
+//
 public boolean withdrawal(int funds) {
     int[] stamps = new int[1];
     int current = this.account.get(stamps);
     int newStamp = this.stamp.incrementAndGet();
     return this.account.compareAndSet(current, current - funds, stamps[0], newStamp);
 }
-
+//
 public boolean deposit(int funds) {
     int[] stamps = new int[1];
     int current = this.account.get(stamps);

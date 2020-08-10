@@ -21,13 +21,13 @@ title: 第8章，线程池的使用
 #### 8.3　配置ThreadPoolExecutor
 >  
 ```java
-public ThreadPoolExecutor（
-	int corePoolSize，
-	int maximumPoolSize，
-	long keepAliveTime，TimeUnit unit，
-	BlockingQueue＜Runnable＞ workQueue，
-	ThreadFactory  threadFactory，
-	RejectedExecutionHandler  handler）{……}
+public ThreadPoolExecutor(
+	int corePoolSize,
+	int maximumPoolSize,
+	long keepAliveTime,TimeUnit unit,
+	BlockingQueue<Runnable> workQueue,
+	ThreadFactory  threadFactory,
+	RejectedExecutionHandler  handler){……}
 ```
 >线程池的基本大小（CorePoolSize）、最大大小（MaximumPoolSize）以及存活时间等因素共同负责线程的创建与销毁。基本大小也就是线程池的目标大小，即在没有任务执行时线程池的大小，并且只有在工作队列满了的情况下才会创建超出这个数量的线程。线程池的最大大小表示可同时活动的线程数量的上限。如果某个线程的空闲时间超过了存活时间，那么将被标记为可回收的，并且当线程池的当前大小超过了基本大小时，这个线程将被终止。  
 在Java6中，可以通过allowCoreThreadTimeOut来使线程池中的所有线程超时。对于一个大小有限的线程池并且在该线程池中包含一个工作队列，如果希望这个线程池在没有任务的情况下能销毁所有线程，那么可以启用这个特性并将基本大小设置为零。
