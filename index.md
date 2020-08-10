@@ -5,7 +5,7 @@ layout: default
 # 最近日志
 
 ## Aug, 2020
-[读书笔记《Java并发编程实战》](./posts/note/java-concurrency-in-practice.html)
+[读书笔记《Java并发编程实战》](./posts/notes/java-concurrency-in-practice.html)
 
 ## Jul, 2020
 [连岳文摘](digests.html)

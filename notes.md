@@ -5,7 +5,7 @@ layout: default
 # 读书笔记
 
 ## 技术
-[《Java并发编程实战》](./posts/note/java-concurrency-in-practice.html)
+[《Java并发编程实战》](./posts/notes/java-concurrency-in-practice.html)
 
 [《Java8实战》](./posts/2019/note-java8-in-action.html)
 
