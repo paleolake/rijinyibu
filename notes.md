@@ -21,6 +21,8 @@ layout: default
 ## 管理
 [《非暴力沟通》](./posts/2020/nonviolent-communication-a-language-of-life.html)
 
+[《门后的秘密-卓越管理的故事》](./posts/notes/secrets-of-great-management.html)
+
 ## 其他
 
 [《如何有效阅读一本书》](./posts/how-to-read-a-book-effectively.html)

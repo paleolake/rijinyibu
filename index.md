@@ -5,6 +5,8 @@ layout: default
 # 最近日志
 
 ## Aug, 2020
+[读书笔记《门后的秘密-卓越管理的故事》](./posts/notes/secrets-of-great-management.html)
+
 [读书笔记《Java并发编程实战》](./posts/notes/java-concurrency-in-practice.html)
 
 ## Jul, 2020
